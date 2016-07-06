@@ -3,10 +3,10 @@
 if (!function_exists('curl_multi'))
 {
     /**
-     * @param mixed ...$ch_list
+     * @param resource[] ...$ch_list
      * @return string[]
      */
-    function curl_multi(resource ...$ch_list)
+    function curl_multi(...$ch_list)
     {
         $mh = curl_multi_init();
 
