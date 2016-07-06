@@ -8,5 +8,10 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
+        "files": [
+            "inc/curl.php",
+            "inc/curl_multi.php",
+            "inc/curl_setup.php"
+        ]
     }
 }
